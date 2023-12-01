@@ -286,13 +286,13 @@ article{
 .section-box2,
 .section-box3,
 .section-box4,
-.section-box5{
+.section-box5{  /*  box of each section */
     position: relative;
     height: 200px;
     width: 100%;
 }
 #section-box1,
-#section-box2{
+#section-box2{  /*  section image   */
     height: 100%;
     width: 100%;
     background-color: #244f90;
@@ -330,7 +330,7 @@ article{
 .section-text2,
 .section-text3,
 .section-text4,
-.section-text5{
+.section-text5{ 
     margin-top: 80px;
     margin-left: 25px;
     width: 80%;
@@ -345,7 +345,7 @@ article{
 .click2,
 .click3,
 .click4,
-.click5{
+.click5{    /*  Click here */
     text-decoration: none;
     margin-top: 170px;
     position: absolute;
@@ -361,4 +361,15 @@ article{
 .click4:hover,
 .click5:hover{
     text-decoration: underline;
+}   /*  ENDING OF main */
+
+.featured-product{
+    padding: 105px 10px 49px;
+    background-color: #ffffff;
+    background-attachment: scroll;
+    width: 100%;
+    height: 100%;
+}
+.fp-title{
+    text-align: center;
 }
